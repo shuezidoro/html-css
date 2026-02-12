@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox Example</title>
+    <style>
+        div.container {
+            background-color: rgb(0, 78, 78);
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        div.item{
+            background-color: rgb(207, 96, 255);
+            border: 2px solid black;
+            padding: 20px;
+        }
+
+        div#i1{
+            order: 2;
+        }
+        div#i2{
+            order: 1;
+        }
+        div#i3{
+            order: 5;
+        }
+        div#i4{
+            order: 4;
+        }
+        div#i5{
+            order: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="i1">Item 1</div>
+        <div class="item" id="i2">Item 2</div>
+        <div class="item" id="i3">Item 3</div>
+        <div class="item" id="i4">Item 4</div>
+        <div class="item" id="i5">Item 5</div>
+    </div>
+</body>
+</html>
