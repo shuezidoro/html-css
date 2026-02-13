@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox Example</title>
+    <style>
+        div.container {
+            background-color: rgb(0, 78, 78);
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        div.item{
+            background-color: rgb(207, 96, 255);
+            border: 2px solid black;
+            text-align: center;
+            flex-basis: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">Item 1</div>
+        <div class="item">Outro Conteúdo</div>
+        <div class="item">Um conteúdo um pouco maior</div>
+        <div class="item">Um conteúdo maior que vai ocupar mais espaço</div>
+        <div class="item">Item 5</div>
+    </div>
+</body>
+</html>
